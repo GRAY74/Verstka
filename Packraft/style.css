@@ -453,6 +453,24 @@ body, html {
   margin-right: 75px;
 }
 
+.faq {
+  background-color: #eeeeee;
+  padding: 100px 0;
+}
+
+.faq__inner {
+  max-width: 765px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.faq__item {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 2px solid #eeeeee;
+}
+
 .booking {
   width: 100%;
   padding: 100px 0;
