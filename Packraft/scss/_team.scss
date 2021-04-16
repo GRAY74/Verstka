@@ -1,0 +1,62 @@
+.team{
+	width: 100%;
+	padding: 100px 0 120px;
+}
+.team__title{
+	font-size: 52px;
+	font-weight: 700;
+	text-align: center;
+}
+.team__description{
+	font-size: 18px;
+	text-align: center;
+	max-width: 570px;
+	margin: 50px auto 80px;
+	line-height: 1.5;
+}
+
+.team__inner{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -30px;
+}
+.team__item{
+	width: 25%;
+	margin-bottom: 60px;
+	padding: 0 30px;
+}
+.team__photo{
+	display: block;
+	max-width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	margin:0px auto 20px;
+}
+.team__name{
+	margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.team__prof, .team__city{
+	margin-bottom: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+.team__verticalContainer{
+	margin: 50px 0 100px;
+	text-align: center;
+}
+.team__verticalline{
+	display: inline-block;
+	width: 1px;
+	height: 65px;
+	background-color: #000;
+}
+.team__addition{
+	margin: 0 auto;
+	max-width: 935px;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+}
