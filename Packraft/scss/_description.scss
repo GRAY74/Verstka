@@ -1,0 +1,32 @@
+.description__iner{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.description__text{
+	width: 30%;
+	font-size: 18px;
+	line-height: 1.6;
+
+	ul{
+		padding-left: 20px;
+	}
+}
+.description__text--right{
+	margin-left: 50px;
+}
+.description__text--left{
+	margin-right: 50px;
+}
+
+.description__photo{
+	width: 70%;
+	padding-bottom: 45%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.description__section{
+	display: flex;
+	margin-bottom: 95px;
+}

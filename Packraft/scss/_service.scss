@@ -1,0 +1,28 @@
+.service{
+	padding: 80px 0 240px;
+
+}
+.service__iner{
+	max-width: 750px;
+	margin:0 auto;
+}
+.service__text{
+	font-size: 18px;
+	line-height: 1.8;
+}
+.service__line{
+	width: 80px;
+	height: 3px;
+	background-color: #ffcd00;
+	margin-bottom: 14px;
+}
+.service__verticalContainer{
+	margin: 100px 0 120px;
+	text-align: center;
+}
+.service__verticalline{
+	display: inline-block;
+	width: 1px;
+	height: 65px;
+	background-color: #000;
+}
