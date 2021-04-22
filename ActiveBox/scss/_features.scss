@@ -1,0 +1,24 @@
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+}
+.features__item{
+	width: 33.33333%;
+	text-align: center;
+	padding: 0 40px;
+    margin: 25px 0;
+}
+.featues__icon{
+	margin-bottom: 25px;
+}
+.features__title{
+	text-transform: uppercase;
+	color: #2d3033;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.features__text{
+	line-height: 1.5;
+}
