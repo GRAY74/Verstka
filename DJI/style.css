@@ -86,4 +86,32 @@ body, html {
   background-size: contain;
 }
 
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works__item {
+  width: 33.333%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.works__photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
