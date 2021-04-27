@@ -1,0 +1,13 @@
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+    justify-content: space-around;
+}
+.galery__item{
+	width: 24%;
+	background-position: center;
+	background-size: cover;
+	 padding-top: 20%;
+	margin-bottom: 20px;
+}

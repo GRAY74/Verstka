@@ -1,0 +1,22 @@
+.about__description{
+	max-width: 760px;
+	font-size: 2.2rem;
+	text-align: center;
+	margin:35px auto 65px;
+}
+.about__photo{
+	display: flex;
+	justify-content: space-between;
+}
+.about__item{
+	width: 50%;
+	height: 660px;
+	margin: 0 20px;
+}
+.about__img{
+	width: 100%;
+	margin-bottom: 18px;
+}
+.about{
+	padding-bottom: 100px;
+}

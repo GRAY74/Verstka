@@ -1,0 +1,26 @@
+.intro{
+	width: 100%;
+	margin: 0 auto;
+}
+.intro__photo {
+	position: relative;
+	min-height: 525px; 
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/intro.webp");
+}
+
+.intro__caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 7.2rem;
+  transform: translateY(-50%);
+}

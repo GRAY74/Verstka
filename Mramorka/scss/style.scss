@@ -1,0 +1,48 @@
+html{
+    font-size: 10px;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import 'btn';
+
+@import 'header';
+@import 'intro';
+@import 'about';
+@import 'paralax';
+@import 'description';
+@import 'galary';
+@import 'target';
+@import 'call';
+
+@import 'footer';
