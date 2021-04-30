@@ -5,7 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mramorka</title>
     <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/fancybox/jquery.fancybox.css"/>
 	<link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/fancybox/jquery.fancybox.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    
 </head>
 <body>
 <svg style="display: none;">
@@ -48,11 +55,6 @@
         <path d="M15.0010773,29.9969026 C6.71476662,29.9969026 -0.000942760943,23.2811932 -0.000942760943,14.9979126 C-0.000942760943,6.71261195 6.71476662,-0.00107736853 15.0010773,-0.00107736853 C23.2823378,-0.00107736853 29.9990572,6.71261195 29.9990572,14.9979126 C29.9990572,23.2811932 23.2833479,29.9969026 15.0010773,29.9969026 Z M14.9990572,9.16346042 C15.9845639,9.16346042 16.7857961,9.96559598 16.7857961,10.9501993 C16.7857961,11.9366092 15.9845639,12.7378415 14.9990572,12.7378415 C14.0126473,12.7378415 13.2114151,11.9366092 13.2114151,10.9501993 C13.2114151,9.96378937 14.0126473,9.16346042 14.9990572,9.16346042 L14.9990572,9.16346042 L14.9990572,9.16346042 Z M19.3159557,10.9501993 C19.3159557,8.56908521 17.3810746,6.63149426 14.9990572,6.63149426 C12.6170398,6.63149426 10.6803522,8.56908521 10.6803522,10.9501993 C10.6803522,13.3313134 12.6170398,15.2670977 14.9990572,15.2670977 C17.3810746,15.2670977 19.3159557,13.3313134 19.3159557,10.9501993 Z M16.7451474,18.7899904 C17.6249672,18.5876499 18.472268,18.242587 19.2527243,17.752092 C19.8443896,17.3790267 20.0232441,16.5976672 19.6510821,16.0069052 C19.2771135,15.4152399 18.4985739,15.2363853 17.9058953,15.6085473 C16.1354159,16.7214201 13.8590853,16.7214201 12.0904126,15.6085473 C11.4987473,15.2372886 10.7164844,15.4152399 10.3461291,16.0069052 C9.97306376,16.5967639 10.1519183,17.3790267 10.741777,17.752092 C11.5222332,18.2416837 12.3704374,18.5903598 13.2493539,18.7899904 L10.8348175,21.2036235 C10.3416125,21.6977317 10.3416125,22.5007706 10.8348175,22.9930722 C11.0805167,23.2387714 11.4048035,23.3634276 11.7290902,23.3634276 C12.053377,23.3634276 12.3776638,23.2387714 12.6242663,22.9930722 L14.995444,20.6209912 L17.3684284,22.9939756 C17.8625366,23.4871805 18.6637689,23.4871805 19.1560705,22.9939756 C19.6519854,22.4998673 19.6519854,21.6968284 19.1560705,21.2054301 L16.7451474,18.7899904 L16.7451474,18.7899904 L16.7451474,18.7899904 Z"></path>
     </g>
 </symbol>
-
-
-
-
-
 </svg>
 
 
@@ -88,11 +90,15 @@
 		</div>	
         <div class="about__photo">
             <div class="about__item">
-                <img src="img/about/1.webp" class="about__img">
+                <a href="img/about/1.jpg"  data-fancybox="example_group"><img src="img/about/1.webp" class="about__img"></a>
             </div>
             <div class="about__item">
-                <img src="img/about/2.webp" class="about__img">
-                <img src="img/about/3.webp" class="about__img">
+                <a href="img/about/2.jpg"  data-fancybox="example_group">
+                    <img src="img/about/2.webp" class="about__img">
+                </a>
+                <a href="img/about/3.jpg"  data-fancybox="example_group">
+                    <img src="img/about/3.webp" class="about__img">
+                </a>
             </div>            
 
         </div>
@@ -186,6 +192,72 @@
 </div>
 
 
+<div class="reviews">
+<h2 class="reviews__title">Отзывы наших гостей</h2>
+<div class="reviews__iner">
+<div class="slider slider_2">
+<div>
+  <div class="slide">
+  <div class="slide__left" style="background-image: url('img/reviews/1.webp')"></div>   
+  <div class="slide__right">
+    <div class="slide__text">
+      У меня захватывало дух с каждым пройденным шагом вверх, но! У ребят все так четко, грамотно и травмобезопасно, они такие светлые и искренние, что ты полностью доверяешь их опыту, следуя инструкциям и, преодолевая все свои страхи, просто улетаешь в небо. Это был сказочный день.
+    </div>
+    <div class="slide__name">Антонина</div> 
+    <div class="slide__city">г.Саяногорск</div>
+  </div>
+  </div>
+</div>
+
+<div>
+  <div class="slide">
+  <div class="slide__left" style="background-image: url('img/reviews/2.webp')"></div>   
+  <div class="slide__right">
+    <div class="slide__text">
+      Лазили с верхней страховкой. Мрамор – чудесный материал. Есть тут аттракцион «кровать» на высоте 70 метров, дух захватывает от чудесных видов на Енисей и Борус. На высоте 50 метров нас настиг адреналин. Я так высоко не лазил. Хочется вернуться.
+    </div>
+    <div class="slide__name">Владислав</div> 
+    <div class="slide__city">г.Томск</div>
+  </div>
+  </div>
+</div>
+
+<div>
+  <div class="slide">
+  <div class="slide__left" style="background-image: url('img/reviews/3.webp')"></div>   
+  <div class="slide__right">
+    <div class="slide__text">
+      Для себя обнаружил место не так давно, при посещении СШГЭС. После посетил Мраморку уже три раза. Это вам не веревочный парк. Просто круто, неимоверно. Можно всему научиться, идти только вперед и вперед. Испытай себя! Буду возвращаться сюда неоднократно.
+    </div>
+    <div class="slide__name">Лев</div> 
+    <div class="slide__city">г.Москва</div>
+  </div>
+  </div>
+</div>
+
+<div>
+  <div class="slide">
+  <div class="slide__left" style="background-image: url('img/reviews/4.webp')"></div>   
+  <div class="slide__right">
+    <div class="slide__text">
+      Ночевал с детьми в подвесной палатке – платформе на высоте 70 метров от земли.
+      Вертикальный беспредел ). Да, лезли сами. Да, ночевали. Нет, не страшно. Да, пристегнуты даже ночью. Да, хотим еще!
+    </div>
+    <div class="slide__name">Евгений</div> 
+    <div class="slide__city">г.Красноярск</div>
+  </div>
+  </div>
+</div>
+
+</div>
+</div>
+<div class="reviews__link">
+    <a href="#" class="btn">Больше отзывов</a>
+</div>   
+</div>
+
+
+
 <div class="call">
     <div class="call__iner">
         <div class="call__title">Хотите окунуться в мир невероятных ощущений?</div>
@@ -226,8 +298,7 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
-<script src="lib/slick/slick.min.js"></script>
+
 <script>
 $(document).ready(function(){
 $('.slider-for').slick({
@@ -242,6 +313,17 @@ $('.slider-for').slick({
    arrows: false,
    variableWidth: true
  });
+
+$().fancybox({
+    iframe : {
+    scrolling : 'yes',
+    },
+});
+
+  $('.slider_2').slick({
+    dots: true,
+  
+  });
 
 });
 </script>	
