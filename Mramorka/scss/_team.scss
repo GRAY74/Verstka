@@ -1,0 +1,43 @@
+.team{
+	padding: 50px 0 30px;
+}
+.team__title{
+	font-size: 3rem;
+	font-weight: 100;
+	text-align: center;
+
+	max-width: 700px;
+	margin: 0 auto 160px;
+}
+.team__row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+.team__photo{
+	width: 50%;
+}
+.team__img{
+	width: 100%;
+}
+
+.team__text{
+	width: 50%;
+	padding:0 40px;
+}
+.team__name{
+	font-size: 2.6rem;
+	font-weight: 700;
+	color: #000;
+}
+.team__position{
+	margin-top: 20px;
+	font-size: 1.6rem;
+}
+.team__description{
+	margin-top: 40px;
+	font-size: 1.8rem;
+	b{
+		color:#000;
+	}
+}

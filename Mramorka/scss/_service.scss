@@ -1,0 +1,48 @@
+.service{
+	padding: 50px 0 30px;
+}
+.service__title{
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	color: #000;
+
+	max-width: 700px;
+	margin: 0 auto 115px;
+}
+.service__iner{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.service__row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 120px;
+	justify-content: space-between;
+}
+.serivce__row--reverse{
+	flex-direction: row-reverse;
+}
+
+.service__photo{
+	width: 48%;
+}
+.service__img{
+	width: 100%;
+}
+.service__text{
+	width: 48%;
+	p{
+		margin-top: 30px;
+		font-size: 1.8rem;
+	}
+	b{
+		color:#000;
+	}
+
+}
+.service__subtitle{
+	font-size: 2.6rem;
+	font-weight: 700;
+	color: #000;
+}
