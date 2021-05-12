@@ -146,6 +146,10 @@ p {
   background: rgba(0, 0, 0, 0.3);
 }
 
+.intro__overlay--competition {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 .intro__text {
   width: 100%;
   color: #fff;
@@ -605,6 +609,94 @@ footer {
   font-size: 2.6rem;
   font-weight: 700;
   color: #000;
+}
+
+.club__title {
+  max-width: 500px;
+  margin: 35px auto 80px;
+  font-size: 22px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: 300;
+}
+
+.club__iner {
+  display: flex;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto 50px;
+}
+
+.club__photo {
+  width: 66.666%;
+}
+
+.club__text {
+  font-size: 1.6rem;
+  width: 33.333%;
+  padding-left: 30px;
+}
+.club__text p {
+  margin-bottom: 2rem;
+}
+
+.club__subtitle {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.events {
+  padding: 50px 0;
+}
+
+.events__title {
+  font-size: 4.2rem;
+  color: #000;
+  text-align: center;
+}
+
+.events__iner {
+  max-width: 960px;
+  margin: 90px auto 0;
+}
+
+.events__row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.events__photo {
+  width: 27%;
+}
+
+.events__text {
+  width: 55%;
+  font-size: 2rem;
+}
+
+.events__subtitle {
+  font-size: 2.6rem;
+  color: #000;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.events__addition {
+  font-size: 1.6rem;
+  color: #000;
+  margin: 18px 0 40px;
+}
+
+.events__date {
+  color: #000;
+  font-size: 2rem;
+  text-align: right;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */

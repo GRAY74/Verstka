@@ -1,0 +1,42 @@
+.events{
+	padding: 50px 0;
+}
+.events__title{
+	font-size: 4.2rem;
+	color: #000;
+	text-align: center;
+}
+.events__iner{
+	max-width: 960px;
+	margin:90px auto 0;
+}
+.events__row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 65px;
+}
+.events__photo{
+	width: 27%;
+}
+.events__text{
+	width: 55%;
+	font-size: 2rem;
+}
+.events__subtitle{
+	font-size: 2.6rem;
+	color: #000;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+.events__addition{
+	font-size: 1.6rem;
+	color:#000;
+	margin: 18px 0 40px;
+}
+.events__date{
+	color:#000;
+	font-size: 2rem;
+	text-align: right;
+	font-weight: 600;
+}
