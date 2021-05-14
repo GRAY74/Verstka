@@ -1,0 +1,31 @@
+.slk{
+  margin-top: 120px;
+}
+.slk__iner{
+  display: flex;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto 50px;
+}
+.slk__photo{
+  width: 66.666%;
+}
+.slk__text{
+  font-size: 1.6rem;
+  width: 33.333%;
+  padding-left: 30px;
+
+  p{
+    margin-bottom: 2rem;
+  }
+}
+.slk__title{
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.slider-nav{
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.galary-1{
+	width: 100%;
+	padding: 20px;
+}
+.galary-1__top{
+	padding-top: 60%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+.galary-1__bottom{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.galary-1__item{
+	width: 32.5%;
+	padding-top: 20%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
