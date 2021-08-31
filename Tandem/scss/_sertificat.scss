@@ -1,0 +1,39 @@
+.sertificat{
+	padding-top: 50px;
+}
+.sertificat__title{
+	max-width: 800px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 3rem;
+}
+.sertificat__subtitle{
+	max-width: 800px;
+	margin:20px auto 0;
+	font-size: 1.5rem;
+	color: #8A91A3;
+}
+.sertificat__iner{
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sertificat__card{
+	width: 30%;
+	margin-bottom: 20px;
+	height: 480px;
+}
+.sertifcat__img{
+	width: 80px;
+}
+.sertificat__description{
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 35px;
+}
+.sertificat__text{
+	font-size: 1.5rem;
+	cursor: #8A91A3;
+	margin-top: 45px;
+}
